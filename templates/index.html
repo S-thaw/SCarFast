@@ -48,9 +48,18 @@ body{font-family:'Prompt',system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neu
 </style>
 </head>
 <body>
+
 <nav class="navbar navbar-dark">
   <div class="container py-2 d-flex flex-wrap gap-3 align-items-center justify-content-between">
-    <a class="navbar-brand d-flex align-items-center gap-2" href="#"><span class="badge bg-light text-dark">Calculator</span> ตัวช่วยคำนวณสินเชื่อรถ <span class="badge bg-light text-dark ms-2">by Seksan Thawornsak</span> <span class="badge bg-light text-dark ms-1">081-7001142</span></a>
+    <a class="navbar-brand d-flex flex-column align-items-start" href="#">
+      <div>
+        <span class="badge bg-light text-dark">Calculator</span>
+        ตัวช่วยคำนวณสินเชื่อรถ
+      </div>
+      <div class="small text-white">
+        by Seksan Thawornsak • 081-7001142
+      </div>
+    </a>
     <div class="d-flex align-items-center gap-2 text-white">
       <label class="me-1 mb-0 small">โทนสีรถ</label>
       <select id="themeSelect" class="form-select form-select-sm" style="width:240px">
@@ -68,6 +77,7 @@ body{font-family:'Prompt',system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neu
     </div>
   </div>
 </nav>
+
 
 <main class="container my-4 my-sm-5">
   <div id="printHeader">
